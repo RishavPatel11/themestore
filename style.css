@@ -1,106 +1,156 @@
 body
-{
-   background-image: url('https://img.freepik.com/free-vector/background-crystal-geometric-colorful-abstract_343694-2894.jpg?t=st=1735362292~exp=1735365892~hmac=cd3f835beb4fb823c12ae5459a04299a6839d8949958cdb6ad7bb3670fcaa899&w=1060');
-   background-repeat: no-repeat;
-    background-size: cover;
+            {
+               background-image: url('https://img.freepik.com/free-vector/background-crystal-geometric-colorful-abstract_343694-2894.jpg?t=st=1735362292~exp=1735365892~hmac=cd3f835beb4fb823c12ae5459a04299a6839d8949958cdb6ad7bb3670fcaa899&w=1060');
+               background-repeat: no-repeat;
+                background-size: cover;
+            
+            }
+            *
+            {
+                text-decoration: none;
+            }
+            .navbar
+            {
+                font-family:Lucida Handwriting;
+                padding: 0px;
+                padding-left: 15px;
+                
+            }
+            .navdiv
+            {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .logo a
+            {
+                font-size: 60px;
+                color: rgb(88, 13, 13);
+                font-weight:900;
+                border-radius: 20px;
+                background-image: url('https://img.freepik.com/free-vector/background-colorful-gradient-vector_343694-1407.jpg?t=st=1735364039~exp=1735367639~hmac=792b842635b9d15120c475c1f89f935434f1011eaf50fd38a3574f4b82cdc790&w=900');
+                font-family: jokerman;
+            }
+            li
+            {
+                list-style:none;
+                display: inline-block;
+            }
+            li a
+            {
+                color: rgb(112, 85, 1);
+                font-size: 25px;
+                font-weight: 600;
+                font-family: jokerman;
+                margin-right: 25px;
+                background-image: url('https://img.freepik.com/free-vector/background-colorful-gradient-vector_343694-1407.jpg?t=st=1735364039~exp=1735367639~hmac=792b842635b9d15120c475c1f89f935434f1011eaf50fd38a3574f4b82cdc790&w=900');
+                border-radius: 10px;
+            }
+            button
+            {
+                border: 2px solid rgb(132, 135, 139);
+                border-radius: 30px;
+                margin-left: 10px;
+                padding: 0px;
+                background-image: url('https://img.freepik.com/free-vector/background-colorful-gradient-vector_343694-1407.jpg?t=st=1735364039~exp=1735367639~hmac=792b842635b9d15120c475c1f89f935434f1011eaf50fd38a3574f4b82cdc790&w=900');
+            }   
+            button a
+            {
+                color: rgb(45, 42, 34);
+                font-size: 30px;
+                margin-left: 2px;
+                align-content: center;
+                font-family:jokerman;
+                background-image: url('https://img.freepik.com/free-vector/background-colorful-gradient-vector_343694-1407.jpg?t=st=1735364039~exp=1735367639~hmac=792b842635b9d15120c475c1f89f935434f1011eaf50fd38a3574f4b82cdc790&w=900');
+                
+            }
+            button:hover,button:active
+            {
+                background-color:rgb(180, 101, 6);
+            }
+            
+            li a:hover
+            {
+                border: 2px solid grey;
+                color: rgb(211, 146, 61);
+            }
+            h1{
+                font-family: jokerman;
+                color: purple;
+                margin-top: 13%;
+                margin-left: 40%;
+                font-size: 70px;
 
-}
-*
-{
-    text-decoration: none;
-}
-.navbar
-{
-    font-family:Lucida Handwriting;
-    padding: 0px;
-    padding-left: 15px;
-    
-}
-.navdiv
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo a
-{
-    font-size: 60px;
-    color: rgb(88, 13, 13);
-    font-weight:900;
-    border-radius: 20px;
-    background-image: url('https://img.freepik.com/free-vector/background-colorful-gradient-vector_343694-1407.jpg?t=st=1735364039~exp=1735367639~hmac=792b842635b9d15120c475c1f89f935434f1011eaf50fd38a3574f4b82cdc790&w=900');
-    font-family: jokerman;
-}
-li
-{
-    list-style:none;
-    display: inline-block;
-}
-li a
-{
-    color: rgb(112, 85, 1);
-    font-size: 25px;
-    font-weight: 600;
-    font-family: jokerman;
-    margin-right: 25px;
-    background-image: url('https://img.freepik.com/free-vector/background-colorful-gradient-vector_343694-1407.jpg?t=st=1735364039~exp=1735367639~hmac=792b842635b9d15120c475c1f89f935434f1011eaf50fd38a3574f4b82cdc790&w=900');
-    border-radius: 10px;
-}
-li a:hover
-{
-    border: 2px solid grey;
-    color: rgb(211, 146, 61);
-}
-button
-{
-    border: 2px solid rgb(132, 135, 139);
-    border-radius: 30px;
-    margin-left: 10px;
-    padding: 0px;
-    background-image: url('https://img.freepik.com/free-vector/background-colorful-gradient-vector_343694-1407.jpg?t=st=1735364039~exp=1735367639~hmac=792b842635b9d15120c475c1f89f935434f1011eaf50fd38a3574f4b82cdc790&w=900');
-}   
-button a
-{
-    color: rgb(45, 42, 34);
-    font-size: 30px;
-    margin-left: 2px;
-    align-content: center;
-    font-family:jokerman;
-    background-image: url('https://img.freepik.com/free-vector/background-colorful-gradient-vector_343694-1407.jpg?t=st=1735364039~exp=1735367639~hmac=792b842635b9d15120c475c1f89f935434f1011eaf50fd38a3574f4b82cdc790&w=900');
-    
-}
-button:hover,button:active
-{
-    background-color:rgb(180, 101, 6);
-}
-.wall
-{
-    font-family: jokerman;
-    font-size: 50px;
-    font-weight: 900;
-    margin-left: 40%;
-    margin-top: 13%
-    
-}
-.wall:hover
-{
-   color: violet;
-}
-
-  table
-  {
-    background-color: antiquewhite;
-   margin-top: 15%;
-  padding: 7px;
-   
-  }
-  tr img{
-    height: 270px;
-    width:480px;
-    padding: 7px; 
-  }
-  tr img:hover
-  {
-    border: 1px solid red;
-    background-color: rgb(222, 200, 200);
-  }
+            }
+            h1:hover
+            {
+                color: rgb(125, 120, 125);
+            }
+            .font
+            {
+                display: inline-block;
+            }
+            .f1,.f2,.f3,.f4,.f5,.f6,.f7,.f8,.f9,.f10,.f11,.f12
+            {
+                border: 2px solid rgb(150, 146, 146);
+                border-radius:10px;
+                text-align: center;
+                height: 60px;
+                width: 1000px;
+                margin-left: 22%;
+                padding-top: 10px;
+                background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdIDMGxTPmqZkao88EjKOLe6RyjCUsESEOKw&s');
+                color: rgb(182, 177, 184);
+                font-size: 40px;
+                padding-bottom: 5px;
+                
+            }
+             .f1
+             {
+                font-family: algerian;
+             }
+             .f2
+             {
+                font-family: arial black;
+             }
+             .f3
+             {
+                font-family: bodoni mt black;
+             }
+             .f4
+             {
+                font-family: cascadia code semibold;
+             }
+             .f5
+             {
+                font-family: eras bold itc;
+             }
+             .f6
+             {
+                font-family:cooper black;
+             }
+             .f7{
+                font-family: goudy stout;
+             }
+             .f8{
+                font-family: castellar;
+             }
+             .f9{
+                font-family: script mt black;
+             }
+             .f10
+             {
+                font-family: lucida handwriting;
+             }
+             .f11{
+                font-family: monotype corsiva;
+             }
+             .f12{
+                font-family: matura mt script capitals;
+             }
+             .f1:hover,.f2:hover,.f3:hover,.f4:hover,.f5:hover,.f6:hover,.f7:hover,.f8:hover,.f9:hover,.f10:hover,.f11:hover,.f12:hover
+             {
+                color: purple;
+                border: 2px solid #ffa704;
+             }
+            
