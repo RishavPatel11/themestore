@@ -1,0 +1,106 @@
+body
+{
+   background-image: url('https://img.freepik.com/free-vector/background-crystal-geometric-colorful-abstract_343694-2894.jpg?t=st=1735362292~exp=1735365892~hmac=cd3f835beb4fb823c12ae5459a04299a6839d8949958cdb6ad7bb3670fcaa899&w=1060');
+   background-repeat: no-repeat;
+    background-size: cover;
+
+}
+*
+{
+    text-decoration: none;
+}
+.navbar
+{
+    font-family:Lucida Handwriting;
+    padding: 0px;
+    padding-left: 15px;
+    
+}
+.navdiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a
+{
+    font-size: 60px;
+    color: rgb(88, 13, 13);
+    font-weight:900;
+    border-radius: 20px;
+    background-image: url('https://img.freepik.com/free-vector/background-colorful-gradient-vector_343694-1407.jpg?t=st=1735364039~exp=1735367639~hmac=792b842635b9d15120c475c1f89f935434f1011eaf50fd38a3574f4b82cdc790&w=900');
+    font-family: jokerman;
+}
+li
+{
+    list-style:none;
+    display: inline-block;
+}
+li a
+{
+    color: rgb(112, 85, 1);
+    font-size: 25px;
+    font-weight: 600;
+    font-family: jokerman;
+    margin-right: 25px;
+    background-image: url('https://img.freepik.com/free-vector/background-colorful-gradient-vector_343694-1407.jpg?t=st=1735364039~exp=1735367639~hmac=792b842635b9d15120c475c1f89f935434f1011eaf50fd38a3574f4b82cdc790&w=900');
+    border-radius: 10px;
+}
+li a:hover
+{
+    border: 2px solid grey;
+    color: rgb(211, 146, 61);
+}
+button
+{
+    border: 2px solid rgb(132, 135, 139);
+    border-radius: 30px;
+    margin-left: 10px;
+    padding: 0px;
+    background-image: url('https://img.freepik.com/free-vector/background-colorful-gradient-vector_343694-1407.jpg?t=st=1735364039~exp=1735367639~hmac=792b842635b9d15120c475c1f89f935434f1011eaf50fd38a3574f4b82cdc790&w=900');
+}   
+button a
+{
+    color: rgb(45, 42, 34);
+    font-size: 30px;
+    margin-left: 2px;
+    align-content: center;
+    font-family:jokerman;
+    background-image: url('https://img.freepik.com/free-vector/background-colorful-gradient-vector_343694-1407.jpg?t=st=1735364039~exp=1735367639~hmac=792b842635b9d15120c475c1f89f935434f1011eaf50fd38a3574f4b82cdc790&w=900');
+    
+}
+button:hover,button:active
+{
+    background-color:rgb(180, 101, 6);
+}
+.wall
+{
+    font-family: jokerman;
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 40%;
+    margin-top: 13%
+    
+}
+.wall:hover
+{
+   color: violet;
+}
+
+  table
+  {
+    background-color: antiquewhite;
+   margin-top: 15%;
+  padding: 7px;
+   
+  }
+  tr img{
+    height: 270px;
+    width:480px;
+    padding: 7px; 
+  }
+  tr img:hover
+  {
+    border: 1px solid red;
+    background-color: rgb(222, 200, 200);
+  }
